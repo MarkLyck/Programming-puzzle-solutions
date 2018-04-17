@@ -7,3 +7,4 @@ Competitive programming is a great way to learn very rapidly, you get to solve p
 
 ## Easy
 - [Chuck Norris](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Chuck%20Norris)
+- [Mime Types](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Mime%20Types)
