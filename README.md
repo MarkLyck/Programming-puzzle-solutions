@@ -6,4 +6,4 @@ Competitive programming is a great way to learn very rapidly, you get to solve p
 Profile: https://www.codingame.com/profile/11ffd5e960968f5899821b5e3bfebe349135442
 
 ##Easy
-- Chuck Norris
+- [Chuck Norris](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Chuck%20Norris)
