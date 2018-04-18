@@ -46,7 +46,7 @@ The name of the defibrillator located the closest to the user’s position.
 
 ```javascript
 const degreesToRadians = angle => angle * (Math.PI / 180)
-const strToRadians = str => degreesToRadians(Number(str.replace(',', '.')))
+const commaStrToNum = str => Number(str.replace(',', '.'))
 
 let closestDefib = ''
 let shortestDistance = -1
@@ -61,16 +61,19 @@ const calcDistanceBetween = (coordA, coordB) => {
     return distance
 }
 
-const lon = strToRadians(readline());
-const lat = strToRadians(readline());
+const lon = commaStrToNum(readline());
+const lat = commaStrToNum(readline());
 const N = parseInt(readline());
 
-const userCoord = { lat, lon }
+const userCoord = { lon: degreesToRadians(lon), late: degreesToRadians(lat) }
 
 for (let i = 0; i < N; i++) {
     var DEFIB = readline().split(';');
-    const defibCoord = { lon: strToRadians(DEFIB[4]), lat: strToRadians(DEFIB[5]) }
-    const distance = calcDistanceBetween(defibCoord, userCoord)
+    const defibLon = commaStrToNum(DEFIB[4])
+    const defibLat = commaStrToNum(DEFIB[5])
+
+    const defibCoord = { lon: degreesToRadians(defibLon), lat: degreesToRadians(defibLat) }
+    const distance = calcDistanceFrom(defibCoord, userCoord)
     if (distance < shortestDistance || shortestDistance === -1) {
         closestDefib = DEFIB[1]
         shortestDistance = distance
