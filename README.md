@@ -12,3 +12,4 @@ All the solutions are in JavaScript, but I may add more languages later.
 ## Easy
 - [Chuck Norris](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Chuck%20Norris)
 - [Mime Types](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Mime%20Types)
+- [Defibrilators](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Defibrilators)
