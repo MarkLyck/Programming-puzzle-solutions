@@ -13,3 +13,4 @@ All the solutions are in JavaScript, but I may add more languages later.
 - [Chuck Norris](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Chuck%20Norris)
 - [Mime Types](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Mime%20Types)
 - [Defibrilators](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Defibrilators)
+- [Horse-racing Duals](https://github.com/MarkLyck/Programming-puzzle-solutions/tree/master/codingame/Horse-racing%20Duals)
