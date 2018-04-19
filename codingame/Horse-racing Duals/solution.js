@@ -8,7 +8,7 @@ for (let i = 0; i <= N; i++) {
 
 const minDiff = strs.sort().reduce((acc, curr, i) => {
     const diff = Math.abs(curr - strs[i - 1])
-    if (strs[i - 1] && (!acc || acc > diff)) {
+    if (strs[i - 1] && (acc !== null || acc >= diff)) {
         acc = diff
     }
     return acc
